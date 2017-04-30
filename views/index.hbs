@@ -1,0 +1,29 @@
+<h2> Welcome to Tic Tac Two </h2>
+<p> If you do not already have an account, please register. </p>
+<div class="registration">
+  <h2> <u>Registration</u> </h2>
+  <div class="form">
+    <form method="POST" action="/users/register">
+      <input type="text" name="username" value="username"/> <br />
+      <input type="text" name="password" value="password"/> <br />
+
+      <input type="submit" value="register" />
+    </form>
+  </div>
+</div>
+
+<br />
+<br />
+
+<p> Otherwise, please enter your login information below. </p>
+<div class="login">
+  <h2> <u>Login</u> </h2>
+  <div class="form">
+    <form method="POST" action="/users/login">
+      <input type="text" name="username" value="username"/> <br />
+      <input type="text" name="password" value="password"/> <br />
+
+      <input type="submit" value="login" />
+    </form>
+  </div>
+</div>
